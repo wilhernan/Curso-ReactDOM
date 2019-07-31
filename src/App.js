@@ -8,16 +8,16 @@ import Product from './Product'     //Ejercicios adicionales
 import productsData from './vschoolProducts'  //Ejercicios adicionales
 import TodosData from './TodosData'; //Acceso al Proyecto TODO's
 
-//Habilitar "<Form/>" para ir al ejercicio de Formulario y el Proyecto TODO's
-//Habilitar "<Header/><MemeGenerator/>" para ir al ejercio de Generador de Meme
+//Descomentar "<Form/>" para ir al ejercicio de Formulario y el Proyecto TODO's
+//O Habilitar "<Header/><MemeGenerator/>" para ir al ejercio de Generador de Meme
 function App(){
   return (
-   <Form/>
-  /*  <div>
+  /* <Form/> */
+    <div>
       <Header/>
       <MemeGenerator/>
     </div>
-    */
+   
   )
 } 
 
